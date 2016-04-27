@@ -1,13 +1,15 @@
-package expenseReport;
+package coding.dojo.expensereport;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import static expenseReport.Expense.Type.*;
 import static org.junit.Assert.assertEquals;
+import static coding.dojo.expensereport.Expense.Type.*;
 
 public class ExpenseReportTest {
+
   private ExpenseReport report = new ExpenseReport();
+
   private MockReportPrinter printer = new MockReportPrinter();
 
   @Before

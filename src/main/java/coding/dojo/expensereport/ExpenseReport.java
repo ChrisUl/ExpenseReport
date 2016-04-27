@@ -1,10 +1,9 @@
-package expenseReport;
+package coding.dojo.expensereport;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static expenseReport.Expense.Type.*;
-
+import static coding.dojo.expensereport.Expense.Type.*;
 
 public class ExpenseReport {
   private List<Expense> expenses = new ArrayList<Expense>();

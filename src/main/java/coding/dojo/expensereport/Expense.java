@@ -1,6 +1,7 @@
-package expenseReport;
+package coding.dojo.expensereport;
 
 public class Expense {
+
   public enum Type {DINNER, BREAKFAST, CAR_RENTAL};
   public Type type;
   public int amount;
@@ -9,6 +10,5 @@ public class Expense {
     this.type = type;
     this.amount = amount;
   }
-
 
 }
